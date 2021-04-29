@@ -10,6 +10,7 @@
 
 module.exports = (robot) ->
 
+  #3)
   robot.hear /cocacola/i, (res) ->
     res.send ".... para que preguntas si es obvio"
 
@@ -40,9 +41,52 @@ module.exports = (robot) ->
   robot.hear /Horario laboral/i, (res) ->
     res.send "de 9 a 6"
 
+  #4)
+  enterReplies = ['Hi', 'Trabaja', 'No tienes amigos es?', ':|']
+
+  robot.hear /Hola/i, (res) ->
+    res.send res.random enterReplies
+
+  #Despedidas
+  robot.enter (res) ->
+     res.send res.random enterReplies
+  
+  #5)
   robot.hear /Reunión/i, (res) ->
     room = "diplomado"
     robot.messageRoom room, "@canal Unanse a la reu"
+
+  robot.hear /buenos dias/i, (res) ->
+    room = "diplomado"
+    robot.messageRoom room, "Hola! Buenas equipo, que tengan un excelente día."
+
+  #6)
+  robot.respond /Quién es el (.*) de la célula??/i, (res) ->
+    rol = res.match[1]
+    if rol is "PO"
+      res.reply "La PO de la Célula es."
+    else if rol is "Tester"
+      res.reply "El Tester de la Célula es Alexander."
+    else if rol is "QA"
+      res.reply "El QA de la Célula es Daniel."
+    else if rol is "Desarrollador"
+      res.reply "El Desarrollador de la Célula es Hernan."
+    else if rol is "SRE"
+      res.reply "El Desarrollador de la Célula es Miguel."
+    else
+      res.reply "El #{rol} no se encuentra en la Célula"
+
+  #7)
+  roles = ['PO Michell', 'Tester Alexander', 'QA Daniel', 'Desarrollador Hernan', 'SRE Miguel']
+
+  robot.hear /Rol/i, (res) ->
+    res.send res.random roles
+
+  #8)
+  #execute test slack
+  #HUBOT_SLACK_TOKEN=xoxb-1998040481607-2013132795699-Wig5OrJ3vCAq7P9hJBtUa7By ./bin/hubot --adapter slack
+
+  
   #
   # robot.respond /open the (.*) doors/i, (res) ->
   #   doorType = res.match[1]
@@ -63,15 +107,13 @@ module.exports = (robot) ->
   #   res.send "#{res.message.text}? That's a Paddlin'"
   #
   #
-  enterReplies = ['Hi', 'Trabaja', 'No tienes amigos es?', ':|']
+  #enterReplies = ['Hi', 'Trabaja', 'No tienes amigos es?', ':|']
   # leaveReplies = ['Are you still there?', 'Target lost', 'Searching']
   #
-
-  robot.hear /Hola/i, (res) ->
-    res.send res.random enterReplies
-
-   robot.enter (res) ->
-     res.send res.random enterReplies
+  #robot.hear /Hola/i, (res) ->
+  #  res.send res.random enterReplies
+  # robot.enter (res) ->
+  #   res.send res.random enterReplies
   # robot.leave (res) ->
   #   res.send res.random leaveReplies
   #
