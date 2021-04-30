@@ -36,7 +36,7 @@ module.exports = (robot) ->
     res.send "Cual Daniel?"
 
   robot.hear /Cuanto falta para terminar el diplomado/i, (res) ->
-    res.send "Falta un día..."
+    res.send "...En 3....2........ :bomb: :boom:"
 
   robot.hear /Horario laboral/i, (res) ->
     res.send "de 9 a 6"
@@ -44,7 +44,7 @@ module.exports = (robot) ->
   #4)
   enterReplies = ['Hi', 'Trabaja', 'No tienes amigos es?', ':|']
 
-  robot.hear /Hola/i, (res) ->
+  robot.hear /hola/i, (res) ->
     res.send res.random enterReplies
 
   #Despedidas
@@ -64,7 +64,7 @@ module.exports = (robot) ->
   robot.respond /Quién es el (.*) de la célula??/i, (res) ->
     rol = res.match[1]
     if rol is "PO"
-      res.reply "La PO de la Célula es."
+      res.reply "La PO de la Célula es Michell."
     else if rol is "Tester"
       res.reply "El Tester de la Célula es Alexander."
     else if rol is "QA"
