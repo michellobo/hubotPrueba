@@ -41,6 +41,12 @@ module.exports = (robot) ->
   robot.hear /Horario laboral/i, (res) ->
     res.send "de 9 a 6"
 
+  robot.hear /DONE/i, (res) ->
+    res.send ":mechanical_arm:"
+
+  robot.hear /A quién amas?/i, (res) ->
+    res.send ":smiling_face_with_3_hearts: EEEEEEvaaaaaa"
+
   #4)
   enterReplies = ['Hi', 'Trabaja', 'No tienes amigos es?', ':|']
 
@@ -60,8 +66,12 @@ module.exports = (robot) ->
     room = "diplomado"
     robot.messageRoom room, "Hola! Buenas equipo, que tengan un excelente día."
 
+  robot.hear /clases/i, (res) ->
+    room = "diplomado"
+    robot.messageRoom room, "Go Go Go ... A clases :bulb: "
+
   #6)
-  robot.respond /Quién es el (.*) de la célula??/i, (res) ->
+  robot.hear /Quién es el (.+) de la célula??/i, (res) ->
     rol = res.match[1]
     if rol is "PO"
       res.reply "La PO de la Célula es Michell."
@@ -79,7 +89,7 @@ module.exports = (robot) ->
   #7)
   roles = ['PO Michell', 'Tester Alexander', 'QA Daniel', 'Desarrollador Hernan', 'SRE Miguel']
 
-  robot.hear /Rol/i, (res) ->
+  robot.hear /Roles/i, (res) ->
     res.send res.random roles
 
   #8)
