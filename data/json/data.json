@@ -1,0 +1,702 @@
+[
+    {
+        "nombre": "Kameko",
+        "edad": 29,
+        "genero": "M",
+        "ejercicioPorSemana": 1,
+        "tieneTrabajo": true
+    },
+    {
+        "nombre": "Leslie",
+        "edad": 16,
+        "genero": "F",
+        "ejercicioPorSemana": 7,
+        "tieneTrabajo": false
+    },
+    {
+        "nombre": "Emmanuel",
+        "edad": 44,
+        "genero": "M",
+        "ejercicioPorSemana": 5,
+        "tieneTrabajo": true
+    },
+    {
+        "nombre": "Libby",
+        "edad": 45,
+        "genero": "F",
+        "ejercicioPorSemana": 4,
+        "tieneTrabajo": true
+    },
+    {
+        "nombre": "Cailin",
+        "edad": 43,
+        "genero": "M",
+        "ejercicioPorSemana": 0,
+        "tieneTrabajo": false
+    },
+    {
+        "nombre": "Mechelle",
+        "edad": 22,
+        "genero": "F",
+        "ejercicioPorSemana": 1,
+        "tieneTrabajo": false
+    },
+    {
+        "nombre": "Fleur",
+        "edad": 38,
+        "genero": "M",
+        "ejercicioPorSemana": 0,
+        "tieneTrabajo": false
+    },
+    {
+        "nombre": "Sean",
+        "edad": 43,
+        "genero": "F",
+        "ejercicioPorSemana": 5,
+        "tieneTrabajo": false
+    },
+    {
+        "nombre": "Felicia",
+        "edad": 44,
+        "genero": "M",
+        "ejercicioPorSemana": 0,
+        "tieneTrabajo": false
+    },
+    {
+        "nombre": "Cheyenne",
+        "edad": 26,
+        "genero": "F",
+        "ejercicioPorSemana": 6,
+        "tieneTrabajo": true
+    },
+    {
+        "nombre": "Demetria",
+        "edad": 29,
+        "genero": "M",
+        "ejercicioPorSemana": 7,
+        "tieneTrabajo": true
+    },
+    {
+        "nombre": "Marsden",
+        "edad": 44,
+        "genero": "F",
+        "ejercicioPorSemana": 6,
+        "tieneTrabajo": false
+    },
+    {
+        "nombre": "Joseph",
+        "edad": 38,
+        "genero": "M",
+        "ejercicioPorSemana": 4,
+        "tieneTrabajo": false
+    },
+    {
+        "nombre": "Kyra",
+        "edad": 32,
+        "genero": "F",
+        "ejercicioPorSemana": 7,
+        "tieneTrabajo": false
+    },
+    {
+        "nombre": "Portia",
+        "edad": 23,
+        "genero": "M",
+        "ejercicioPorSemana": 1,
+        "tieneTrabajo": true
+    },
+    {
+        "nombre": "Hu",
+        "edad": 44,
+        "genero": "F",
+        "ejercicioPorSemana": 7,
+        "tieneTrabajo": false
+    },
+    {
+        "nombre": "Ursula",
+        "edad": 26,
+        "genero": "M",
+        "ejercicioPorSemana": 0,
+        "tieneTrabajo": true
+    },
+    {
+        "nombre": "Carter",
+        "edad": 28,
+        "genero": "F",
+        "ejercicioPorSemana": 4,
+        "tieneTrabajo": true
+    },
+    {
+        "nombre": "Phelan",
+        "edad": 43,
+        "genero": "M",
+        "ejercicioPorSemana": 7,
+        "tieneTrabajo": true
+    },
+    {
+        "nombre": "Kyle",
+        "edad": 25,
+        "genero": "F",
+        "ejercicioPorSemana": 2,
+        "tieneTrabajo": true
+    },
+    {
+        "nombre": "Ahmed",
+        "edad": 38,
+        "genero": "M",
+        "ejercicioPorSemana": 4,
+        "tieneTrabajo": false
+    },
+    {
+        "nombre": "Jasmine",
+        "edad": 16,
+        "genero": "F",
+        "ejercicioPorSemana": 4,
+        "tieneTrabajo": true
+    },
+    {
+        "nombre": "Reece",
+        "edad": 17,
+        "genero": "M",
+        "ejercicioPorSemana": 2,
+        "tieneTrabajo": true
+    },
+    {
+        "nombre": "Justin",
+        "edad": 27,
+        "genero": "F",
+        "ejercicioPorSemana": 1,
+        "tieneTrabajo": true
+    },
+    {
+        "nombre": "Gil",
+        "edad": 19,
+        "genero": "M",
+        "ejercicioPorSemana": 2,
+        "tieneTrabajo": false
+    },
+    {
+        "nombre": "Edan",
+        "edad": 31,
+        "genero": "F",
+        "ejercicioPorSemana": 1,
+        "tieneTrabajo": true
+    },
+    {
+        "nombre": "Candace",
+        "edad": 42,
+        "genero": "M",
+        "ejercicioPorSemana": 7,
+        "tieneTrabajo": false
+    },
+    {
+        "nombre": "Brendan",
+        "edad": 17,
+        "genero": "F",
+        "ejercicioPorSemana": 5,
+        "tieneTrabajo": true
+    },
+    {
+        "nombre": "Rafael",
+        "edad": 37,
+        "genero": "M",
+        "ejercicioPorSemana": 7,
+        "tieneTrabajo": true
+    },
+    {
+        "nombre": "Elizabeth",
+        "edad": 43,
+        "genero": "F",
+        "ejercicioPorSemana": 6,
+        "tieneTrabajo": true
+    },
+    {
+        "nombre": "Fallon",
+        "edad": 44,
+        "genero": "M",
+        "ejercicioPorSemana": 5,
+        "tieneTrabajo": true
+    },
+    {
+        "nombre": "Dante",
+        "edad": 35,
+        "genero": "F",
+        "ejercicioPorSemana": 2,
+        "tieneTrabajo": false
+    },
+    {
+        "nombre": "Bertha",
+        "edad": 15,
+        "genero": "M",
+        "ejercicioPorSemana": 0,
+        "tieneTrabajo": false
+    },
+    {
+        "nombre": "Aladdin",
+        "edad": 32,
+        "genero": "F",
+        "ejercicioPorSemana": 3,
+        "tieneTrabajo": true
+    },
+    {
+        "nombre": "Donna",
+        "edad": 33,
+        "genero": "M",
+        "ejercicioPorSemana": 7,
+        "tieneTrabajo": true
+    },
+    {
+        "nombre": "Kiara",
+        "edad": 31,
+        "genero": "F",
+        "ejercicioPorSemana": 1,
+        "tieneTrabajo": true
+    },
+    {
+        "nombre": "Keith",
+        "edad": 34,
+        "genero": "M",
+        "ejercicioPorSemana": 0,
+        "tieneTrabajo": true
+    },
+    {
+        "nombre": "Michelle",
+        "edad": 34,
+        "genero": "F",
+        "ejercicioPorSemana": 4,
+        "tieneTrabajo": false
+    },
+    {
+        "nombre": "Violet",
+        "edad": 40,
+        "genero": "M",
+        "ejercicioPorSemana": 2,
+        "tieneTrabajo": true
+    },
+    {
+        "nombre": "Aquila",
+        "edad": 34,
+        "genero": "F",
+        "ejercicioPorSemana": 1,
+        "tieneTrabajo": false
+    },
+    {
+        "nombre": "Isabelle",
+        "edad": 23,
+        "genero": "M",
+        "ejercicioPorSemana": 3,
+        "tieneTrabajo": true
+    },
+    {
+        "nombre": "Roth",
+        "edad": 41,
+        "genero": "F",
+        "ejercicioPorSemana": 6,
+        "tieneTrabajo": true
+    },
+    {
+        "nombre": "Harper",
+        "edad": 33,
+        "genero": "M",
+        "ejercicioPorSemana": 6,
+        "tieneTrabajo": true
+    },
+    {
+        "nombre": "Hu",
+        "edad": 37,
+        "genero": "F",
+        "ejercicioPorSemana": 3,
+        "tieneTrabajo": true
+    },
+    {
+        "nombre": "Oprah",
+        "edad": 16,
+        "genero": "M",
+        "ejercicioPorSemana": 0,
+        "tieneTrabajo": true
+    },
+    {
+        "nombre": "Harriet",
+        "edad": 15,
+        "genero": "F",
+        "ejercicioPorSemana": 0,
+        "tieneTrabajo": true
+    },
+    {
+        "nombre": "Bell",
+        "edad": 38,
+        "genero": "M",
+        "ejercicioPorSemana": 2,
+        "tieneTrabajo": false
+    },
+    {
+        "nombre": "Ross",
+        "edad": 30,
+        "genero": "F",
+        "ejercicioPorSemana": 2,
+        "tieneTrabajo": true
+    },
+    {
+        "nombre": "Samson",
+        "edad": 35,
+        "genero": "M",
+        "ejercicioPorSemana": 5,
+        "tieneTrabajo": false
+    },
+    {
+        "nombre": "Blair",
+        "edad": 22,
+        "genero": "F",
+        "ejercicioPorSemana": 1,
+        "tieneTrabajo": false
+    },
+    {
+        "nombre": "Shaine",
+        "edad": 29,
+        "genero": "M",
+        "ejercicioPorSemana": 1,
+        "tieneTrabajo": false
+    },
+    {
+        "nombre": "Yasir",
+        "edad": 26,
+        "genero": "F",
+        "ejercicioPorSemana": 1,
+        "tieneTrabajo": false
+    },
+    {
+        "nombre": "Colorado",
+        "edad": 25,
+        "genero": "M",
+        "ejercicioPorSemana": 1,
+        "tieneTrabajo": true
+    },
+    {
+        "nombre": "Uta",
+        "edad": 21,
+        "genero": "F",
+        "ejercicioPorSemana": 0,
+        "tieneTrabajo": true
+    },
+    {
+        "nombre": "Myles",
+        "edad": 15,
+        "genero": "M",
+        "ejercicioPorSemana": 3,
+        "tieneTrabajo": false
+    },
+    {
+        "nombre": "TaShya",
+        "edad": 24,
+        "genero": "F",
+        "ejercicioPorSemana": 0,
+        "tieneTrabajo": false
+    },
+    {
+        "nombre": "Olga",
+        "edad": 41,
+        "genero": "M",
+        "ejercicioPorSemana": 0,
+        "tieneTrabajo": true
+    },
+    {
+        "nombre": "Indigo",
+        "edad": 27,
+        "genero": "F",
+        "ejercicioPorSemana": 1,
+        "tieneTrabajo": true
+    },
+    {
+        "nombre": "Hunter",
+        "edad": 34,
+        "genero": "M",
+        "ejercicioPorSemana": 3,
+        "tieneTrabajo": false
+    },
+    {
+        "nombre": "Flynn",
+        "edad": 20,
+        "genero": "F",
+        "ejercicioPorSemana": 3,
+        "tieneTrabajo": false
+    },
+    {
+        "nombre": "Karleigh",
+        "edad": 20,
+        "genero": "M",
+        "ejercicioPorSemana": 2,
+        "tieneTrabajo": true
+    },
+    {
+        "nombre": "Kameko",
+        "edad": 32,
+        "genero": "F",
+        "ejercicioPorSemana": 7,
+        "tieneTrabajo": true
+    },
+    {
+        "nombre": "Daphne",
+        "edad": 24,
+        "genero": "M",
+        "ejercicioPorSemana": 3,
+        "tieneTrabajo": true
+    },
+    {
+        "nombre": "Patricia",
+        "edad": 25,
+        "genero": "F",
+        "ejercicioPorSemana": 1,
+        "tieneTrabajo": false
+    },
+    {
+        "nombre": "Olympia",
+        "edad": 37,
+        "genero": "M",
+        "ejercicioPorSemana": 7,
+        "tieneTrabajo": false
+    },
+    {
+        "nombre": "Barclay",
+        "edad": 34,
+        "genero": "F",
+        "ejercicioPorSemana": 0,
+        "tieneTrabajo": true
+    },
+    {
+        "nombre": "Rachel",
+        "edad": 27,
+        "genero": "M",
+        "ejercicioPorSemana": 6,
+        "tieneTrabajo": false
+    },
+    {
+        "nombre": "Britanni",
+        "edad": 36,
+        "genero": "F",
+        "ejercicioPorSemana": 3,
+        "tieneTrabajo": true
+    },
+    {
+        "nombre": "Zia",
+        "edad": 37,
+        "genero": "M",
+        "ejercicioPorSemana": 6,
+        "tieneTrabajo": false
+    },
+    {
+        "nombre": "Whilemina",
+        "edad": 16,
+        "genero": "F",
+        "ejercicioPorSemana": 2,
+        "tieneTrabajo": false
+    },
+    {
+        "nombre": "Yvette",
+        "edad": 25,
+        "genero": "M",
+        "ejercicioPorSemana": 5,
+        "tieneTrabajo": false
+    },
+    {
+        "nombre": "Lisandra",
+        "edad": 21,
+        "genero": "F",
+        "ejercicioPorSemana": 4,
+        "tieneTrabajo": false
+    },
+    {
+        "nombre": "Mufutau",
+        "edad": 19,
+        "genero": "M",
+        "ejercicioPorSemana": 5,
+        "tieneTrabajo": false
+    },
+    {
+        "nombre": "Allistair",
+        "edad": 25,
+        "genero": "F",
+        "ejercicioPorSemana": 4,
+        "tieneTrabajo": true
+    },
+    {
+        "nombre": "Curran",
+        "edad": 44,
+        "genero": "M",
+        "ejercicioPorSemana": 7,
+        "tieneTrabajo": false
+    },
+    {
+        "nombre": "Basil",
+        "edad": 16,
+        "genero": "F",
+        "ejercicioPorSemana": 3,
+        "tieneTrabajo": false
+    },
+    {
+        "nombre": "Kennedy",
+        "edad": 34,
+        "genero": "M",
+        "ejercicioPorSemana": 1,
+        "tieneTrabajo": true
+    },
+    {
+        "nombre": "Neville",
+        "edad": 29,
+        "genero": "F",
+        "ejercicioPorSemana": 1,
+        "tieneTrabajo": true
+    },
+    {
+        "nombre": "Kellie",
+        "edad": 18,
+        "genero": "M",
+        "ejercicioPorSemana": 7,
+        "tieneTrabajo": true
+    },
+    {
+        "nombre": "Fritz",
+        "edad": 21,
+        "genero": "F",
+        "ejercicioPorSemana": 3,
+        "tieneTrabajo": true
+    },
+    {
+        "nombre": "Simone",
+        "edad": 28,
+        "genero": "M",
+        "ejercicioPorSemana": 0,
+        "tieneTrabajo": false
+    },
+    {
+        "nombre": "Harriet",
+        "edad": 15,
+        "genero": "F",
+        "ejercicioPorSemana": 3,
+        "tieneTrabajo": false
+    },
+    {
+        "nombre": "Benedict",
+        "edad": 21,
+        "genero": "M",
+        "ejercicioPorSemana": 6,
+        "tieneTrabajo": true
+    },
+    {
+        "nombre": "Talon",
+        "edad": 24,
+        "genero": "F",
+        "ejercicioPorSemana": 1,
+        "tieneTrabajo": true
+    },
+    {
+        "nombre": "Ivor",
+        "edad": 35,
+        "genero": "M",
+        "ejercicioPorSemana": 5,
+        "tieneTrabajo": false
+    },
+    {
+        "nombre": "August",
+        "edad": 41,
+        "genero": "F",
+        "ejercicioPorSemana": 6,
+        "tieneTrabajo": false
+    },
+    {
+        "nombre": "Maris",
+        "edad": 37,
+        "genero": "M",
+        "ejercicioPorSemana": 1,
+        "tieneTrabajo": false
+    },
+    {
+        "nombre": "Tasha",
+        "edad": 40,
+        "genero": "F",
+        "ejercicioPorSemana": 0,
+        "tieneTrabajo": true
+    },
+    {
+        "nombre": "Adam",
+        "edad": 19,
+        "genero": "M",
+        "ejercicioPorSemana": 6,
+        "tieneTrabajo": true
+    },
+    {
+        "nombre": "Cassandra",
+        "edad": 40,
+        "genero": "F",
+        "ejercicioPorSemana": 0,
+        "tieneTrabajo": true
+    },
+    {
+        "nombre": "Timothy",
+        "edad": 23,
+        "genero": "M",
+        "ejercicioPorSemana": 5,
+        "tieneTrabajo": true
+    },
+    {
+        "nombre": "Quail",
+        "edad": 37,
+        "genero": "F",
+        "ejercicioPorSemana": 0,
+        "tieneTrabajo": false
+    },
+    {
+        "nombre": "Eve",
+        "edad": 20,
+        "genero": "M",
+        "ejercicioPorSemana": 2,
+        "tieneTrabajo": true
+    },
+    {
+        "nombre": "Zephr",
+        "edad": 19,
+        "genero": "F",
+        "ejercicioPorSemana": 7,
+        "tieneTrabajo": false
+    },
+    {
+        "nombre": "Garrett",
+        "edad": 41,
+        "genero": "M",
+        "ejercicioPorSemana": 2,
+        "tieneTrabajo": false
+    },
+    {
+        "nombre": "Martha",
+        "edad": 16,
+        "genero": "F",
+        "ejercicioPorSemana": 7,
+        "tieneTrabajo": true
+    },
+    {
+        "nombre": "Minerva",
+        "edad": 30,
+        "genero": "M",
+        "ejercicioPorSemana": 0,
+        "tieneTrabajo": true
+    },
+    {
+        "nombre": "Griffin",
+        "edad": 16,
+        "genero": "F",
+        "ejercicioPorSemana": 4,
+        "tieneTrabajo": false
+    },
+    {
+        "nombre": "Shellie",
+        "edad": 27,
+        "genero": "M",
+        "ejercicioPorSemana": 5,
+        "tieneTrabajo": false
+    },
+    {
+        "nombre": "Belle",
+        "edad": 22,
+        "genero": "F",
+        "ejercicioPorSemana": 3,
+        "tieneTrabajo": true
+    }
+]
