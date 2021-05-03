@@ -23,4 +23,4 @@ HUBOT_SLACK_TOKEN = <Token de Integración> ./bin/hubot --adapter slack
 
 ## Comandos
 
-- 
+- <En construcción>
