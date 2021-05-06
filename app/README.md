@@ -1,16 +1,14 @@
-# hubotPrueba
+# app
 
  Actividad final de Hubot en Diplomado DevOps Usach.
 
 ## Data
 
-- Codigo fuente de procesamiento de datos y data final en carpeta /data
+- Carpeta Data
 - La data usada en kibana corresopnde al archivo bulk.txt
 - Instrucciones para cargar la data en data/README.md
 
 ## Aplicación
-
-- Código fuente en carpeta /app
 
 ### Requerimientos
 
