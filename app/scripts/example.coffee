@@ -96,7 +96,16 @@ module.exports = (robot) ->
   #execute test slack
   #HUBOT_SLACK_TOKEN=xoxb-1998040481607-2013132795699-Wig5OrJ3vCAq7P9hJBtUa7By ./bin/hubot --adapter slack
 
-  
+  #Entrega de datos relacinoados a estadísticas encontradas 
+  robot.hear /Promedio de edad de quienes no hacen deporte?/i, (res) ->
+    res.reply "30 años"
+
+  robot.hear /Promedio de edad de quienes hacen deporte más de tres veces a la semana y tienen sobre 40 años/i, (res) ->
+    res.reply "42 años"
+
+  robot.hear /Promedio de edad de quienes hacen más de tres veces deporte a la semana y son mujeres/i, (res) ->
+    res.reply "30 años"
+
   #
   # robot.respond /open the (.*) doors/i, (res) ->
   #   doorType = res.match[1]
