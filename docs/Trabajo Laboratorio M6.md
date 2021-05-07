@@ -1,5 +1,19 @@
 # Trabajo Final Módulo 6
 
+### Integrantes
+
+- Hernán Beiza
+
+- Daniel Morales
+- Alexander Sanhueza
+- Michell Lobo
+- Miguel Vera
+
+## URL Repo
+
+- Rama main
+- https://github.com/michellobo/hubotPrueba
+
 #### Creación de índices
 
 ![01 Índice](img/01 Índice.png)
