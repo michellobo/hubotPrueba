@@ -39,7 +39,7 @@ npm install
 - Ejecutar manualmente 
 
 ```bash
-HUBOT_SLACK_TOKEN=xoxb-1998040481607-2013132795699-Wig5OrJ3vCAq7P9hJBtUa7By ./bin/hubot --adapter slack
+HUBOT_SLACK_TOKEN=TOKENACA ./bin/hubot --adapter slack
 ```
 
 - Ejecutar via npm
